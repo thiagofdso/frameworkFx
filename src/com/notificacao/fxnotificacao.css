@@ -1,0 +1,33 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+  
+}
+.atencaoLabel{
+    -fx-font-weight: bold;
+}
+.atencaoImagem{
+    -fx-background-image: url("./perigo.png");
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+.topPanel{
+     -fx-background-color: #ffffff;
+}
+.bottomPanel{
+    -fx-background-color:#cccccc;
+}
+
+.textPanel{
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+.fecharButton{
+     -fx-background-image: url("./cancelar.png");
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+     -fx-border-radius:0;
+     -fx-border-color: black;
+}

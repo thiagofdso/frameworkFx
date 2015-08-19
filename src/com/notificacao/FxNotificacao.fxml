@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" pickOnBounds="false" prefHeight="122.0" prefWidth="275.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.siscap.notificacao.FxNotificacaoController">
+    <stylesheets>
+        <URL value="@fxnotificacao.css" />
+    </stylesheets>
+   <children>
+      <Pane id="topPanel" prefHeight="65.0" prefWidth="275.0" styleClass="topPanel">
+         <children>
+            <Label id="atencaoImagem" layoutX="14.0" layoutY="10.0" prefHeight="32.0" prefWidth="34.0" styleClass="atencaoImagem" />
+            <Label id="atencaoLabel" layoutX="61.0" layoutY="26.0" prefHeight="14.0" prefWidth="71.0" styleClass="atencaoLabel" stylesheets="@fxnotificacao.css" text="Atenção" />
+            <Button id="fecharButton" fx:id="fecharButton" layoutX="227.0" layoutY="10.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="34.0" styleClass="fecharButton" />
+         </children>
+      </Pane>
+      <Pane id="bottomPanel" layoutY="64.0" prefHeight="58.0" prefWidth="275.0" styleClass="bottomPanel" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="64.0">
+         <children>
+            <Pane id="textPanel" layoutX="3.0" layoutY="10.0" prefHeight="40.0" prefWidth="266.0" styleClass="textPanel">
+               <children>
+                  <Label id="textoLabel" fx:id="textoLabel" layoutX="9.0" layoutY="13.0" prefHeight="14.0" prefWidth="249.0" styleClass="atencaoLabel" text="testo" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
